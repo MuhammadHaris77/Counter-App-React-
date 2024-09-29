@@ -19,9 +19,8 @@ function App() {
     <>
   <h1>COUNTER APP</h1>
   <h1>{count}</h1>
-  <button onClick={incrementCount}>INCREMENT</button>  <button onClick={decrementCount}>DECREMENT</button>
+  <button onClick={incrementCount}>ADD COUNTER</button>  <button onClick={decrementCount}>LESS COUNTER</button>
     </>
   )
-}
-
+  
 export default App
