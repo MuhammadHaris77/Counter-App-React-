@@ -10,7 +10,7 @@ function App() {
  }
  const decrementCount=()=>{
   
-  count < 1 ? count == 0 : setCount(count-1)
+  count < 1 ? count == 0 && alert("You Cant More Decrement after Zero")  : setCount(count-1)
 }
   
   const [count, setCount] = useState(0)
